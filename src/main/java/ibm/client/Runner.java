@@ -16,6 +16,7 @@ public class Runner {
 		Session session = sf.openSession();
 		Transaction tx = session.beginTransaction();
 		session.persist(pra);
+		System.out.println("new change");
 		tx.commit();
 	}
 
