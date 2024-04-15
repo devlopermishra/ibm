@@ -11,6 +11,7 @@ public class Runner {
 
 	public static void main(String[] args) {
 		Student pra = new Student(2,"Alok","male","noida");
+		System.out.println("hello");
 		Configuration cfg = new Configuration().configure();
 		SessionFactory sf = cfg.buildSessionFactory();
 		Session session = sf.openSession();
